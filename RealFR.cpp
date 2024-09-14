@@ -24,11 +24,9 @@ string User::getItem(char item)  // to get name, login or password of User class
     case 'l': return this->_login;    // to get a login
     case 'p': return this->_pass;     // to get a password
     }
-    return "";
 }
 
-Message::Message(string text, string sender, string receiver)  // setter
-{
+Message::Message(string text, string sender, string receiver)  // constructor
     this->_text = text; this->_sender = sender; this->_receiver = receiver;
 }
 
