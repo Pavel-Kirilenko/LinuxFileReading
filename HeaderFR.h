@@ -10,7 +10,7 @@ class User {
     string _login;
     string _pass;
 public:
-    void setUser(string name, string login, string pass);  // setter
+    void setUser(string name, string login, string pass); // setter
     void initUser();            // to initiate a user
     string getItem(char item);  // to get name, login or password (depends on value of 'item')
 };
